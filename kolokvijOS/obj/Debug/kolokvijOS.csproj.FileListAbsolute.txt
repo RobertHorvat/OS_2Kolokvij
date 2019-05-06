@@ -1,0 +1,7 @@
+E:\Downloads\OS_2Kolokvij-master\OS_2Kolokvij-master\kolokvijOS\bin\Debug\kolokvijOS.exe.config
+E:\Downloads\OS_2Kolokvij-master\OS_2Kolokvij-master\kolokvijOS\bin\Debug\kolokvijOS.exe
+E:\Downloads\OS_2Kolokvij-master\OS_2Kolokvij-master\kolokvijOS\bin\Debug\kolokvijOS.pdb
+E:\Downloads\OS_2Kolokvij-master\OS_2Kolokvij-master\kolokvijOS\obj\Debug\kolokvijOS.csprojAssemblyReference.cache
+E:\Downloads\OS_2Kolokvij-master\OS_2Kolokvij-master\kolokvijOS\obj\Debug\kolokvijOS.csproj.CoreCompileInputs.cache
+E:\Downloads\OS_2Kolokvij-master\OS_2Kolokvij-master\kolokvijOS\obj\Debug\kolokvijOS.exe
+E:\Downloads\OS_2Kolokvij-master\OS_2Kolokvij-master\kolokvijOS\obj\Debug\kolokvijOS.pdb

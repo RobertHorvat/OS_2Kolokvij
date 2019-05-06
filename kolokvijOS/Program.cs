@@ -113,10 +113,39 @@ namespace kolokvijOS
             Console.WriteLine("Ukupno {0} procesa počinje sa slovom {1}", broj.ToString(), slovo);
         }
 
+        static void ubijanjeProcesa(string proce)
+        {
+
+            try
+            {
+                foreach (Process proc in Process.GetProcessesByName(proce))
+                {
+                    proc.Kill();
+                }
+            }
+
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
+
+        static void statistika()
+        {
+            IEnumerable<Process> procesi;
+            procesi = Process.GetProcesses();
+
+            Console.WriteLine("{0,-25} {1,-5} {2,-15}", "Naziv", "ID", "Memorija");
+            Console.WriteLine("{0,-25} {1,-5} {2,-15}", "=========================", "=====", "===============");
+            foreach (Process p in procesi)
+            {
+                Console.WriteLine("{0,-25} {1,-5} {2,-15}MB", p.ProcessName, p.Id, p.PrivateMemorySize64 / (1024 * 1024));
+            }
+        }
 
         static void Main(string[] args)
         {
-      
+            statistika();
         }
 
 
